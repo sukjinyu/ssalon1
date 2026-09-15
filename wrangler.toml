@@ -1,0 +1,10 @@
+name = "ssalon1"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-09-14"
+
+# 1) 아래 database_id는 Cloudflare에서 D1 DB를 만든 뒤 받은 값으로 바꿔주세요.
+# 2) binding 이름 DB는 functions/_shared/save.ts에서 쓰는 이름과 같아야 합니다.
+[[d1_databases]]
+binding = "DB"
+database_name = "royal-salon-db"
+database_id = "9f34a760-d036-4744-812c-ec39a8cf821e"
